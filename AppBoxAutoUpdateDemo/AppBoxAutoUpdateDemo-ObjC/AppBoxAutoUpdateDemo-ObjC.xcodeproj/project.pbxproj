@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A98E4B1E42FE5900347A48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A98E4A1E42FE5900347A48 /* main.m */; };
+		E1A98E4E1E42FE5900347A48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A98E4D1E42FE5900347A48 /* AppDelegate.m */; };
+		E1A98E511E42FE5900347A48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A98E501E42FE5900347A48 /* ViewController.m */; };
+		E1A98E541E42FE5900347A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A98E521E42FE5900347A48 /* Main.storyboard */; };
+		E1A98E561E42FE5900347A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A98E551E42FE5900347A48 /* Assets.xcassets */; };
+		E1A98E591E42FE5900347A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A98E571E42FE5900347A48 /* LaunchScreen.storyboard */; };
+		E4B9D4B12DBD798A6DF166F7 /* Pods_AppBoxAutoUpdateDemo_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C3BFEA2143E6BDB6545B4A /* Pods_AppBoxAutoUpdateDemo_ObjC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E448185EEEAF6B6ACB85112 /* Pods-AppBoxAutoUpdateDemo-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBoxAutoUpdateDemo-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppBoxAutoUpdateDemo-ObjC/Pods-AppBoxAutoUpdateDemo-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		A1888F9A9B3B0136D395A732 /* Pods-AppBoxAutoUpdateDemo-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBoxAutoUpdateDemo-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppBoxAutoUpdateDemo-ObjC/Pods-AppBoxAutoUpdateDemo-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C3BFEA2143E6BDB6545B4A /* Pods_AppBoxAutoUpdateDemo_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBoxAutoUpdateDemo_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A98E461E42FE5900347A48 /* AppBoxAutoUpdateDemo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppBoxAutoUpdateDemo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A98E4A1E42FE5900347A48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A98E4C1E42FE5900347A48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1A98E4D1E42FE5900347A48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1A98E4F1E42FE5900347A48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1A98E501E42FE5900347A48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1A98E531E42FE5900347A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1A98E551E42FE5900347A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A98E581E42FE5900347A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A98E5A1E42FE5900347A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A98E431E42FE5800347A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B9D4B12DBD798A6DF166F7 /* Pods_AppBoxAutoUpdateDemo_ObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366B6A71CEE67BE283AFF54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C3BFEA2143E6BDB6545B4A /* Pods_AppBoxAutoUpdateDemo_ObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDCD303B6F5571A5637BDB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1888F9A9B3B0136D395A732 /* Pods-AppBoxAutoUpdateDemo-ObjC.debug.xcconfig */,
+				5E448185EEEAF6B6ACB85112 /* Pods-AppBoxAutoUpdateDemo-ObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1A98E3D1E42FE5800347A48 = {
+			isa = PBXGroup;
+			children = (
+				E1A98E481E42FE5900347A48 /* AppBoxAutoUpdateDemo-ObjC */,
+				E1A98E471E42FE5900347A48 /* Products */,
+				CDCD303B6F5571A5637BDB70 /* Pods */,
+				366B6A71CEE67BE283AFF54E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A98E471E42FE5900347A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A98E461E42FE5900347A48 /* AppBoxAutoUpdateDemo-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A98E481E42FE5900347A48 /* AppBoxAutoUpdateDemo-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				E1A98E4C1E42FE5900347A48 /* AppDelegate.h */,
+				E1A98E4D1E42FE5900347A48 /* AppDelegate.m */,
+				E1A98E4F1E42FE5900347A48 /* ViewController.h */,
+				E1A98E501E42FE5900347A48 /* ViewController.m */,
+				E1A98E521E42FE5900347A48 /* Main.storyboard */,
+				E1A98E551E42FE5900347A48 /* Assets.xcassets */,
+				E1A98E571E42FE5900347A48 /* LaunchScreen.storyboard */,
+				E1A98E5A1E42FE5900347A48 /* Info.plist */,
+				E1A98E491E42FE5900347A48 /* Supporting Files */,
+			);
+			path = "AppBoxAutoUpdateDemo-ObjC";
+			sourceTree = "<group>";
+		};
+		E1A98E491E42FE5900347A48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A98E4A1E42FE5900347A48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A98E451E42FE5800347A48 /* AppBoxAutoUpdateDemo-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A98E5D1E42FE5900347A48 /* Build configuration list for PBXNativeTarget "AppBoxAutoUpdateDemo-ObjC" */;
+			buildPhases = (
+				6B6E5105EFE3CEFEFCFA2BF5 /* [CP] Check Pods Manifest.lock */,
+				E1A98E421E42FE5800347A48 /* Sources */,
+				E1A98E431E42FE5800347A48 /* Frameworks */,
+				E1A98E441E42FE5800347A48 /* Resources */,
+				E9CFF2695728461BDE21BC23 /* [CP] Embed Pods Frameworks */,
+				AC9CD04D884B317074B27BE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppBoxAutoUpdateDemo-ObjC";
+			productName = "AppBoxAutoUpdateDemo-ObjC";
+			productReference = E1A98E461E42FE5900347A48 /* AppBoxAutoUpdateDemo-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A98E3E1E42FE5800347A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Developer Insider";
+				TargetAttributes = {
+					E1A98E451E42FE5800347A48 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4F7SW76LL6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1A98E411E42FE5800347A48 /* Build configuration list for PBXProject "AppBoxAutoUpdateDemo-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A98E3D1E42FE5800347A48;
+			productRefGroup = E1A98E471E42FE5900347A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A98E451E42FE5800347A48 /* AppBoxAutoUpdateDemo-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A98E441E42FE5800347A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A98E591E42FE5900347A48 /* LaunchScreen.storyboard in Resources */,
+				E1A98E561E42FE5900347A48 /* Assets.xcassets in Resources */,
+				E1A98E541E42FE5900347A48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B6E5105EFE3CEFEFCFA2BF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9CD04D884B317074B27BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppBoxAutoUpdateDemo-ObjC/Pods-AppBoxAutoUpdateDemo-ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CFF2695728461BDE21BC23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppBoxAutoUpdateDemo-ObjC/Pods-AppBoxAutoUpdateDemo-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A98E421E42FE5800347A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A98E511E42FE5900347A48 /* ViewController.m in Sources */,
+				E1A98E4E1E42FE5900347A48 /* AppDelegate.m in Sources */,
+				E1A98E4B1E42FE5900347A48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1A98E521E42FE5900347A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A98E531E42FE5900347A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A98E571E42FE5900347A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A98E581E42FE5900347A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A98E5B1E42FE5900347A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1A98E5C1E42FE5900347A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A98E5E1E42FE5900347A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1888F9A9B3B0136D395A732 /* Pods-AppBoxAutoUpdateDemo-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				INFOPLIST_FILE = "AppBoxAutoUpdateDemo-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerinsider.AppBoxAutoUpdateDemo-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1A98E5F1E42FE5900347A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E448185EEEAF6B6ACB85112 /* Pods-AppBoxAutoUpdateDemo-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				INFOPLIST_FILE = "AppBoxAutoUpdateDemo-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerinsider.AppBoxAutoUpdateDemo-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A98E411E42FE5800347A48 /* Build configuration list for PBXProject "AppBoxAutoUpdateDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A98E5B1E42FE5900347A48 /* Debug */,
+				E1A98E5C1E42FE5900347A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A98E5D1E42FE5900347A48 /* Build configuration list for PBXNativeTarget "AppBoxAutoUpdateDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A98E5E1E42FE5900347A48 /* Debug */,
+				E1A98E5F1E42FE5900347A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A98E3E1E42FE5800347A48 /* Project object */;
+}

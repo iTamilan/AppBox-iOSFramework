@@ -1,0 +1,6 @@
+framework module AppBox {
+  umbrella header "AppBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
