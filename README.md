@@ -76,7 +76,7 @@ AppNewVersionNotifier.initWithKey("{App Update Key}")
 
 ## Troubleshooting
 
-**Q. Unable to find a specification for MobileCenter error when using CocoaPods in your app?**
+**Q. Unable to find a specification for AppBox error when using CocoaPods in your app?**
 
 If you are using Cocoapods to install AppBox SDK in your app and run into an error with the message - Unable to find a specification for AppBox, run `pod repo update` or `pod repo update master` in your terminal. It will sync the latest podspec files for you. Then try `pod install` which should install AppBox SDK in your app.
 
