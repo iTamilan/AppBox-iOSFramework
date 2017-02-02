@@ -17,7 +17,7 @@ Before you begin, please make sure that the following prerequisites are met:
 
 1. Add the following to your podfile to include all services into your app. This will pull in AppBox SDK.
 
-    ```
+    ```ruby
     platform :ios, '8.0'
     use_frameworks! 
 
