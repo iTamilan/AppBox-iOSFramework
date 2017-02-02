@@ -13,7 +13,7 @@ Before you begin, please make sure that the following prerequisites are met:
 
 ## Integrate the SDK (using Cocoapods)
 
-[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like Mobile Center in your projects. To learn how to setup CocoaPods for your project, visit [the official CocoaPods website](http://cocoapods.org/).
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AppBox in your projects. To learn how to setup CocoaPods for your project, visit [the official CocoaPods website](http://cocoapods.org/).
 
 1. Add the following to your podfile to include all services into your app. This will pull in AppBox SDK.
 
