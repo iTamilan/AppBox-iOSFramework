@@ -1,0 +1,6 @@
+framework module Pods_AppBoxAutoUpdateDemo_Swift {
+  umbrella header "Pods-AppBoxAutoUpdateDemo-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
